@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@scalar/express-api-reference": "^0.8.21",
+    "express": "^5.1.0"
+  }
+}
